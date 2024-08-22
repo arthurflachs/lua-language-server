@@ -1,4 +1,3 @@
-// A launch configuration that compiles the extension and then opens it inside a new window
 {
 	"version": "0.2.0",
 	"configurations": [
@@ -15,7 +14,7 @@
 			"internalConsoleOptions": "openOnSessionStart",
 			"outputCapture": [
 				"print",
-				"stderr",
+				"stderr"
 			],
 			"windows": {
 				"luaexe": "${workspaceFolder}/bin/lua-language-server.exe"
@@ -42,8 +41,8 @@
 						"script\\*",
 						"${workspaceFolder}/script/*"
 					]
-				],
-			},
+				]
+			}
 		},
 		{
 			"name": "🍉build-3rd-meta",
@@ -64,8 +63,8 @@
 			"sourceCoding": "utf8",
 			"outputCapture": [
 				"print",
-				"stderr",
-			],
+				"stderr"
+			]
 		},
 		{
 			"name": "📝locale",
@@ -86,8 +85,8 @@
 			"sourceCoding": "utf8",
 			"outputCapture": [
 				"print",
-				"stderr",
-			],
+				"stderr"
+			]
 		},
 		{
 			"name": "🀄build-doc",
@@ -108,8 +107,8 @@
 			"sourceCoding": "utf8",
 			"outputCapture": [
 				"print",
-				"stderr",
-			],
+				"stderr"
+			]
 		},
 		{
 			"name": "🍖cli-check",
@@ -124,14 +123,14 @@
 			"cpath": null,
 			"arg": [
 				"--check",
-				"${workspaceRoot}",
+				"${workspaceRoot}"
 			],
 			"luaVersion": "lua-latest",
 			"sourceCoding": "utf8",
 			"outputCapture": [
 				"print",
-				"stderr",
-			],
+				"stderr"
+			]
 		},
 		{
 			"name": "🍤cli-doc",
@@ -146,14 +145,14 @@
 			"cpath": null,
 			"arg": [
 				"--doc",
-				"${workspaceRoot}",
+				"${workspaceRoot}"
 			],
 			"luaVersion": "lua-latest",
 			"sourceCoding": "utf8",
 			"outputCapture": [
 				"print",
-				"stderr",
-			],
-		},
+				"stderr"
+			]
+		}
 	]
 }
